@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Edit Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/Add_blog_restaurant.css"/>
+      <link rel="stylesheet" type="text/css" href="../css/navbar1.css" />
+          <script src="https://kit.fontawesome.com/167736d797.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+        <div class="box nav_bar grey borderXwidth fixed-top">
+          <a class="nav_item left" href="index.html">HOME</a>
+          <a class="nav_item left" href="feed.html">FEED</a>
+          <a class="nav_item left" href="restaurant.html">MY RESTAURANT</a>
+          
+          <!-- Search bar from https://codepen.io/kmuenster/pen/XWWeQGw?editors=0110 -->
+          <div class="wrapper">
+            <div class="searchBar">
+              <input id="searchQueryInput" type="text" name="searchQueryInput" placeholder="Search" value="" />
+              <a href="search.html"><button id="searchQuerySubmit" type="submit" name="searchQuerySubmit"><i class="fa-solid fa-magnifying-glass"></i></button></a>
+            </div>
+          </div>
+          
+          <div class="dropdown"><button class="dropbtn"><i class="fa-regular fa-user"></i></button>
+                      <div class="dropdown-content">
+                        
+                        <div class="card profile">
+                            <img class="rounded-circle avatar" src="../images/avatar1.jpg" alt="user" />
+                            <h5 class="name text-white m-1">Winnie The Pool</h5>
+                            <h6 class="text-muted">Toronto, ON</h6>
+            
+                        </div>
+        
+                        <a class="nav_item" href="edit_profile.html">Edit Profile</a>
+                      </div>
+          </div>
+          <div class="dropdown"><button class="dropbtn"><i class="fa-regular fa-bell"></i></button>
+                      <div class="dropdown-content">
+                        <div class=" notif">
+                            <div class="col-md-4">
+                                <img class="rounded-circle avatar" src="../images/avatar3.jpg" alt="user" />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="">
+                                    <p class="">Peppa Pig liked your post.</p>
+                                    <p class="text-muted m-0"><small>1 min ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notif">
+                              <div class="row g-0">
+                                <div class="col-md-4">
+                                  <img src="../images/avatar2.jpg" class="avatar rounded-circle" alt="user">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="">
+                                    <p class="">Kuromi liked your post.</p>
+                                    <p class="time m-0"><small class="text-muted">3 mins ago</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        <div class="notif">
+                              <div class="row g-0">
+                                <div class="col-md-4">
+                                  <img src="../images/mcdonald.png" class="avatar rounded-circle" alt="user">
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="">
+                                    <p class="">New post from McDonald's</p>
+                                    <p class="time m-0"><small class="text-muted">10 mins ago</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+          </div>
+          <a class="nav_item right" href="sign_log.html">LOG OUT</a>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<!--     <div class="bg-image">
+      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/053.webp" class="w-100" />
+      <div
+        class="mask"
+        style="
+          background: linear-gradient(
+            45deg,
+            rgba(29, 236, 197, 0.7),
+            rgba(91, 14, 214, 0.7) 100%
+          );
+        "
+      ></div>
+    </div> -->
+
+<div class="container contact">
+        <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="contact-inf">
+                <img src="../images/p1.jpg" alt="image" id = "small_image">
+                <h2>Edit Restaurant</h2>
+                <h4>Impromve Your Restaurant Imformation!</h4>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="contact-for">
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="fname1">Restaurant Name:</label>
+                  <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="fname1" placeholder="New restaurant name" name="fname">
+                  </div>
+                </div>
+                <br>
+
+
+
+
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="fname2">Address:</label>
+                  <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="fname2" placeholder="New address" name="fname">
+                  </div>
+                </div>
+                <br>
+
+
+            <div class="form-group">
+                  <label class="control-label col-sm-2" for="fname3">Postal Code:</label>
+                  <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="fname3" placeholder="New postal code" name="fname">
+                  </div>
+                </div>
+                <br>
+
+        <div class="form-group">
+                  <label class="control-label col-sm-2" for="fname4">Phone Number:</label>
+                  <div class="col-sm-10">          
+                    <input type="text" class="form-control" id="fname4" placeholder="New Phone Number" name="fname">
+                  </div>
+                </div>
+                <br>
+
+
+
+
+
+                <div class="form-group">
+                  <label class="form-label" for="customFile1">New Logo</label>
+                  <div class="col-sm-10">          
+                    <input type="file" class="form-control" id="customFile1" />
+                  </div>
+                </div>
+
+<br>
+
+
+                <div class="form-group">
+                  <label class="form-label" for="customFile2">New Background Image</label>
+                  <div class="col-sm-10">          
+                    <input type="file" class="form-control" id="customFile2" />
+                  </div>
+                </div>
+
+
+
+<br>
+                <div class="form-group">
+                  <label class="control-label col-sm-4" for="comment">New Restaurant Decription:</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                  </div>
+                </div>
+                <div class="form-group">        
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <br>       
+    <div class="d-flex align-items-center justify-content-center">
+
+                    <a href="restaurant.html"><button class="button0">Back</button></a>
+                    </div>
+                  </div>
+                
+
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+
+
+
+
+</html>
+
+

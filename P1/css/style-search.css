@@ -1,0 +1,30 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Style+Script&display=swap');
+
+#card-main{
+	margin-top: 200px;
+}
+body{
+	background-image: url("../images/new4.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.checked {
+  color: orange;
+}
+
+
+
+#resultfound{
+	font-family: 'Lora', serif;
+	color: white;
+}
+
+#marsk1{
+    height: 100vh;
+}
